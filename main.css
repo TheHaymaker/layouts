@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+html body * {
+  box-sizing: border-box;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+html body {
+  font-size: 14px;
+}
+
+#main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px dotted black;
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col {
+  width: 100%;
+  /* min-height: 150px; */
+  /* background-color: grey; */
+  border-right: 10px solid white;
+  float: left;
+}
+
+.col:last-child {
+  border-right: 0px solid transparent;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.32%;
+}
+
+.col-5 {
+  width: 41.65%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.31%;
+}
+
+.col-8 {
+  width: 66.64%;
+}
+
+.col-9 {
+  width: 74.97%;
+}
+
+.col-10 {
+  width: 83.3%;
+}
+
+.col-11 {
+  width: 91.63%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  min-height: 150px;
+  background-color: #4f6874;
+  border-radius: 3px;
+  padding: 15px;
+  box-shadow: 0px 6px 10px -7px #726d6d;
+}
+
+/* NAVBAR */
+
+.logo {
+  float: left;
+}
+
+.card__logo {
+  width: 150px;
+  height: 60px;
+  background-color: #4f6874;
+  border-radius: 3px;
+  padding: 15px;
+  box-shadow: 0px 6px 10px -7px #726d6d;
+}
+
+.nav-items {
+  float: right;
+}
+
+.nav-items ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.nav-item {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background-color: #4f6874;
+  border-radius: 3px;
+  padding: 15px;
+  box-shadow: 0px 6px 10px -7px #726d6d;
+}
+
+/* MAIN PAGE */
+
+.floats .card,
+.flexbox .card {
+  position: relative;
+}
+
+.floats .card a,
+.flexbox .card a {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.floats .card {
+  background-color: #f5ca35;
+}
+
+.flexbox .card {
+  background-color: #445ece;
+}
+
+.floats .card a {
+  color: black;
+}
+
+.flexbox .card a {
+  color: white;
+}
