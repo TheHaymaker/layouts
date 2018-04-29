@@ -172,3 +172,44 @@ html body {
 .flexbox .card a {
   color: white;
 }
+
+/* Legend */
+.box__row.legend-box:before,
+.box__col.legend-box:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 39px;
+}
+
+.legend {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.legend * {
+  align-self: center;
+}
+
+.legend-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+.box__row.legend-box:before {
+  background-color: white;
+  border: 1px dotted black;
+}
+
+.box__col.legend-box:before {
+  background-color: #4f6874;
+  border-radius: 3px;
+  box-shadow: 0px 6px 10px -7px #726d6d;
+}
