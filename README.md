@@ -1,6 +1,6 @@
 # Layouts For The Web
 
-![Demo Application](https://thehaymaker.github.io/layouts/)
+[Demo Application](https://thehaymaker.github.io/layouts/)
 
 Single-, Double- and Triple-column layouts, as well as nested variations -- shown in both `flexbox` and `float` implementations.
 
